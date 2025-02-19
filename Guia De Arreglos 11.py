@@ -6,9 +6,9 @@ max_A = max(curso_A)
 
 max_B = max(curso_B)
 
-pos_A = curso_A.index(max_A)
+pos_A = curso_A.index(max_A) + 1
 
-pos_B = curso_B.index(max_B)
+pos_B = curso_B.index(max_B) + 1
 
 print(f"Estatura maxima del curso A: {max_A} cm, alumno en la posicion: {pos_A}")
 
